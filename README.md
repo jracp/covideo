@@ -32,9 +32,10 @@ To set up the hardware and software, please follow each step carefully. Otherwis
  7.	After capturing the picture, the application starts processing and locating the inner canthus of the subject. When finished, the outcome is shown as illustrated in Figure 3
  
 ![Figure 2](/images/Initialized.png)
-*Figure 2: Initialized thermal image of the subject*
+*Figure 2: Initialized thermal image*
 
 ![Figure 3](/images/Detected.png)
 *Figure 3: Detected inner canthus and temperatures*
 
-**Note**: The **Thermal.vi** can be edit to work with different thermal camera
+
+**Note**: The **Thermal.vi** can be edited to work with different thermal camera
