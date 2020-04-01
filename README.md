@@ -1,4 +1,4 @@
-# Introduction
+# Covideo
 Covideo (see Figure 1) is an application designed to monitor inner canthus temperature actively, as instructed in [IEC 80601-2-59](https://www.iso.org/standard/69346.html), based on the thermal images captured using [FLIR Systems](https://www.flir.ca/) [ThermaCAM SC640](https://www.photonicsonline.com/doc/thermacam-sc640-0001) camera.
 
 ## Requirements
