@@ -7,8 +7,10 @@ Here is a list of minimum requirements:
  - LabView 2010
  - ThermaCAM SC640 or similar
 
+In the top position of the application, there are two numbers, one in red and the other one in blue, which represents the maximum and the average temperature of inner canthus, respectively. The white section in the middle shows the subject thermal image and the detected area when computing is done.  The green led at the button indicates that the subject has a normal temperature. In the case of detecting equal and higher than 38, the LED goes red, and a pop-up message will appear. When the application detects a subject and calculates max and average temperatures, the process holds the process for 10 seconds to let the information being recorded, if necessary, by the operator. The timeout is visualized using the gauge located at the bottom part of the application. The live button initiates the process and the stop button interrupts the process. 
 
-![Covideo](/images/Covideo.png)
+![Covideo](/images/Covideo.png) Covideo application
+
 ## Step 0
 Open terminal using either (Ctrl + Alt + t) or *Search* and type in **terminal** and then hit *Enter*
 
