@@ -26,7 +26,8 @@ To set up the hardware and software, please follow each step carefully. Otherwis
 ## Software setup
  1. Download the code and copy that into a folder called **covideo** in C drive
  2.	Open the folder
- 3.	Locate **Thermal.vi** file and open it
+ 3.	Locate **Thermal.vi** file and open it (**Note**: The **Thermal.vi** can be edited to work with different thermal camera
+)
  4.	When LabView is opened, click on the *Run* button
  5.	Go back to **covideo** folder and double click on **Covideo.exe**
  6.	To start screening, click on the *Live* button as shown in Figure 2
@@ -37,6 +38,3 @@ To set up the hardware and software, please follow each step carefully. Otherwis
 
 ![Figure 3](/images/Detected.png)
 *Figure 3: Detected inner canthus and temperatures*
-
-
-**Note**: The **Thermal.vi** can be edited to work with different thermal camera
