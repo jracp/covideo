@@ -7,6 +7,8 @@ Here is a list of minimum requirements:
  - LabView 2010
  - ThermaCAM SC640 or similar
 
+
+![Covideo](/images/Covideo.png)
 ## Step 0
 Open terminal using either (Ctrl + Alt + t) or *Search* and type in **terminal** and then hit *Enter*
 
