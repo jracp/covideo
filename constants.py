@@ -1,10 +1,10 @@
 """This is the docstring for the constants.py module.  In this module all the constant values are stored
 
-# Programmed by Javad Rahimipour Anaraki on 2020.04.14
-# Postdoctoral Fellow
-# PRISM Lab, Bloorview Research Institute
-# Holland Bloorview Kids Rehabilitation Hospital
-# jrahimipour [AT] hollandbloorview [DOT] ca | http://individual.utoronto.ca/jrahimipour/
+Programmed by Javad Rahimipour Anaraki on 2019.04.14
+Postdoctoral Fellow
+Institute of Biomedical Engineering
+University of Toronto
+j.rahimipour [AT] utoronto [DOT] ca | http://individual.utoronto.ca/jrahimipour/
 
 """
 title = 'Covideo'
