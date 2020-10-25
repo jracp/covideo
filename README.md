@@ -17,6 +17,7 @@ Here is a list of minimum requirements:
 In the top position of the application, there are two numbers, one in red and the other one in blue, which represents the maximum and the average temperature of inner canthus, respectively. The white section in the middle shows the subject thermal image and the detected area when computing is done.  The green led at the button indicates that the subject has a normal temperature. In the case of detecting equal and higher than 38, the LED goes red, and a pop-up message will appear. When the application detects a subject and calculates max and average temperatures, the process holds the process for 10 seconds to let the information being recorded, if necessary, by the operator. The timeout is visualized using the gauge located at the bottom part of the application. The live button initiates the process and the stop button interrupts the process. 
 
 ![Figure 1](/images/Covideo.png)
+
 *Figure 1: Covideo application*
 
 To set up the hardware and software, please follow each step carefully. Otherwise, the accuracy and applicability of the application could be affected.
@@ -39,7 +40,9 @@ To set up the hardware and software, please follow each step carefully. Otherwis
  7.	After capturing the picture, the application starts processing and locating the inner canthus of the subject. When finished, the outcome is shown as illustrated in Figure 3
  
 ![Figure 2](/images/Initialized.png)
+
 *Figure 2: Initialized thermal image*
 
 ![Figure 3](/images/Detected.png)
+
 *Figure 3: Detected inner canthus and temperatures*
