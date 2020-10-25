@@ -1,17 +1,17 @@
-# # Programmed by Javad Rahimipour Anaraki on 2020.04.14
-# # Postdoctoral Fellow
-# # PRISM Lab, Bloorview Research Institute
-# # Holland Bloorview Kids Rehabilitation Hospital
-# # jrahimipour [AT] hollandbloorview [DOT] ca | http://individual.utoronto.ca/jrahimipour/
-#
-# """
-# from typing import Union
+"""
+Programmed by Javad Rahimipour Anaraki on 2019.04.14
+Postdoctoral Fellow
+Institute of Biomedical Engineering
+University of Toronto
+j.rahimipour [AT] utoronto [DOT] ca | http://individual.utoronto.ca/jrahimipour/
+
+"""
 
 import constants
 import sys
-from PySide2.QtWidgets import (QLabel, QPushButton, QApplication,
-    QVBoxLayout, QHBoxLayout, QWidget, QLineEdit, QMainWindow, QComboBox, QDialog, QMessageBox)
-from PySide2 import QtGui, QtCore, Qt
+from PySide2.QtWidgets import (QLabel, QPushButton, QApplication, QVBoxLayout, QHBoxLayout, QWidget, QLineEdit,
+                               QMainWindow, QComboBox, QDialog, QMessageBox)
+from PySide2 import QtGui, QtCore
 from PySide2.QtGui import QPixmap
 import threading
 import cv2
@@ -31,26 +31,22 @@ class MainWindow(QMainWindow):
 
     def __initUI(self):
         self.setWindowTitle(constants.title)
-        # self.setFixedWidth(471)
-        # self.setFixedHeight(460)
-        # self.setFixedWidth(680)
-        # self.setFixedHeight(680)
 
         # Temperature
         self.temp = QLabel("Temperatures")
-        Palette = QtGui.QPalette()
+        self.palette = QtGui.QPalette()
 
-        Palette.setColor(QtGui.QPalette.Text, QtCore.Qt.red)
+        self.palette.setColor(QtGui.QPalette.Text, QtCore.Qt.red)
         self.maxTempLabel = QLabel("Max Temperature")
         self.maxTemp = QLineEdit("00.00")
         self.maxTemp.setEnabled(False)
-        self.maxTemp.setPalette(Palette)
+        self.maxTemp.setPalette(self.palette)
 
-        Palette.setColor(QtGui.QPalette.Text, QtCore.Qt.darkGreen)
+        self.palette.setColor(QtGui.QPalette.Text, QtCore.Qt.darkGreen)
         self.avgTempLabel = QLabel("Average Temperature")
         self.avgTemp = QLineEdit("00.00")
         self.avgTemp.setEnabled(False)
-        self.avgTemp.setPalette(Palette)
+        self.avgTemp.setPalette(self.palette)
 
         # Image
         self.image = QLabel()
@@ -70,7 +66,7 @@ class MainWindow(QMainWindow):
         self.stop.clicked.connect(lambda: self.__stop())
 
 
-        # # Create layout and add widgets
+        #Create layout and add widgets
         parentLayout = QVBoxLayout()
 
         #Temp layout
